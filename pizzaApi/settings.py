@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'pizzaApi',
         'CLIENT': {
-           'host': 'mongodb+srv://fahimalif:fahimkhan@cluster0.vigvf.mongodb.net/pizzaApi?retryWrites=true&w=majority',
+           'host': 'mongodb+srv://<username>:<password>@cluster0.vigvf.mongodb.net/pizzaApi?retryWrites=true&w=majority',
         }
     }
 }
